@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,80 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom Yan | Tactical Dreamer</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #fdfdfd;
-            color: #333;
-        }
+    <link rel="stylesheet" href="css/styles.css">
 
-        header {
-            background-color: #1f2937;
-            color: white;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 4rem 2rem;
-            background-color: #e5e7eb;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .section {
-            padding: 3rem 2rem;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .section h2 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .card {
-            padding: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            background-color: white;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 2rem;
-            background-color: #1f2937;
-            color: white;
-            margin-top: 4rem;
-        }
-    </style>
 </head>
 
 <body>
@@ -102,18 +29,27 @@
 
     <section class="section" id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Tom — a computer science student with a Ghibli soul, currently based in Rochester. With a
-            background in military reconnaissance, I approach challenges with both tactical precision and creative
-            flair. When I'm not building iOS apps or diving into AI, you'll find me capturing quiet moments through
-            photography or experimenting with new recipes.</p>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/tomface.jpeg" alt="Tom Yan">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Tom — a computer science student with a Ghibli soul, currently based in Rochester. With a
+                    background in military reconnaissance, I approach challenges with both tactical precision and creative
+                    flair. When I'm not building iOS apps or diving into AI, you'll find me capturing quiet moments through
+                    photography or experimenting with new recipes.</p>
+            </div>
+        </div>
+    
         <h3>✨ Fun Facts</h3>
         <ul>
             <li>Speaks ASL and conversational Chinese</li>
-            <li>Loves ramen a *lot*</li>
+            <li>Loves ramen a <em>lot</em></li>
             <li>Has a soft spot for Studio Ghibli aesthetics</li>
             <li>Enjoys skiing, badminton, and late-night moon photography</li>
         </ul>
     </section>
+    
 
     <section class="section" id="projects">
         <h2>Projects</h2>
@@ -168,7 +104,7 @@
     <section class="section" id="contact">
         <h2>Contact</h2>
         <p>📧 Email: tomyan@email.com</p>
-        <p>💼 <a href="#">LinkedIn</a> | 🧠 <a href="#">GitHub</a> | 📸 <a href="#">Instagram</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/tomyanzhiyuan2027/">LinkedIn</a> | 🧠 <a href="https://github.com/tomyanzhiyuan">GitHub</a> | 📸 <a href="https://www.instagram.com/tom.orrows/">Instagram</a></p>
         <p>[Optional: Contact form here]</p>
     </section>
 
