@@ -34,13 +34,22 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 4rem 2rem;
-    background-color: #e5e7eb;
+    padding: 8rem 2rem;
+    background-image: url('sgskyline.jpg');
+    background-size: cover;
+    background-position: center -50px;
+    background-repeat: no-repeat;
 }
+
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: black;
+}
+
+.hero p {
+    color: black;
 }
 
 .section {
