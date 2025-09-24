@@ -1,0 +1,1 @@
+Removing unused components that might be causing Three.js conflicts
