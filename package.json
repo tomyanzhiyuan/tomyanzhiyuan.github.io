@@ -53,8 +53,10 @@
           "@vitejs/plugin-react-swc": "^3.10.2",
           "vite": "6.3.5"
       },
-      "scripts": {
-          "dev": "vite",
-          "build": "vite build"
-      }
+  "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "deploy": "npm run build && cp -r build/* /Users/tomyanzhiyuan/tomyanzhiyuan.github.io/ && cd /Users/tomyanzhiyuan/tomyanzhiyuan.github.io && git add . && git commit -m 'Deploy updated website' && git push"
+  }
   }
