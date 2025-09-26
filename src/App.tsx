@@ -62,15 +62,13 @@ export default function App() {
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
         {/* Fluid Dynamics Background */}
-        <FluidDynamicsCanvas />
+        <div className="absolute inset-0 z-0">
+          <FluidDynamicsCanvas />
+        </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-24">
-          <GlassMorphism
-            intensity="strong"
-            blur="xl"
-            className="p-12"
-          >
+        <div className="relative z-50 text-center px-6 max-w-4xl mx-auto pt-24">
+          <div className="bg-white/20 backdrop-blur-xl border border-white/20 shadow-2xl rounded-xl p-12">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-thin">
               Engineer by Logic.
               <br />
@@ -83,32 +81,20 @@ export default function App() {
               Explorer
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
-              <Badge
-                variant="secondary"
-                className="px-4 py-2 text-base"
-              >
+              <div className="px-4 py-2 text-base bg-gray-800 text-white rounded-md">
                 Rochester
-              </Badge>
-              <Badge
-                variant="secondary"
-                className="px-4 py-2 text-base"
-              >
+              </div>
+              <div className="px-4 py-2 text-base bg-gray-800 text-white rounded-md">
                 iOS Development
-              </Badge>
-              <Badge
-                variant="secondary"
-                className="px-4 py-2 text-base"
-              >
+              </div>
+              <div className="px-4 py-2 text-base bg-gray-800 text-white rounded-md">
                 Photography
-              </Badge>
-              <Badge
-                variant="secondary"
-                className="px-4 py-2 text-base"
-              >
+              </div>
+              <div className="px-4 py-2 text-base bg-gray-800 text-white rounded-md">
                 AI Explorer
-              </Badge>
+              </div>
             </div>
-          </GlassMorphism>
+          </div>
         </div>
       </section>
 
