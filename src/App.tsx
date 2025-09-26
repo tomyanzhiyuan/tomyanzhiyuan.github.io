@@ -241,7 +241,7 @@ export default function App() {
               Let's Connect
             </h3>
             <p className="text-lg text-gray-300 mb-4 font-thin">
-              📧 Email: zhiyuan@rochester.edu
+              📧 Email: zhiyuanyan@rochester.edu
             </p>
 
             {/* LinkedIn Profile */}

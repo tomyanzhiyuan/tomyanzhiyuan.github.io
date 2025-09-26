@@ -130,6 +130,18 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Geist Mono', monospace;
+    background-image: none !important;
+    background: var(--background) !important;
+  }
+
+  html {
+    background-image: none !important;
+    background: var(--background) !important;
+  }
+
+  #root {
+    background-image: none !important;
+    background: transparent !important;
   }
 }
 
