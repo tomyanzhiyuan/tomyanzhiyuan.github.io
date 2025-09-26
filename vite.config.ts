@@ -52,8 +52,14 @@ export default defineConfig({
       },
     },
     build: {
-      target: 'esnext',
+      target: 'es2015',
       outDir: 'build',
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
     },
     publicDir: 'public',
     server: {
