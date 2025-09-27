@@ -55,10 +55,10 @@ export default defineConfig({
       target: 'es2015',
       outDir: 'build',
       assetsDir: 'assets',
+      sourcemap: false,
       rollupOptions: {
         output: {
           manualChunks: undefined,
-          format: 'iife',
           entryFileNames: 'assets/[name]-[hash].js',
           chunkFileNames: 'assets/[name]-[hash].js',
           assetFileNames: 'assets/[name]-[hash].[ext]'
