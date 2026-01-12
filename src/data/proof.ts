@@ -10,10 +10,10 @@ export interface ProofTile {
 
 export const proofTiles: ProofTile[] = [
   {
-    id: "apps",
+    id: "projects",
     icon: Smartphone,
-    label: "iOS Apps Shipped",
-    metric: "3",
+    label: "Projects Shipped",
+    metric: "5+",
   },
   {
     id: "research",

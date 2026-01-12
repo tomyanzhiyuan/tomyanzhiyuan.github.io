@@ -34,15 +34,15 @@ export const principles: Principle[] = [
 export const examples: Example[] = [
   {
     id: "1",
-    context: "Building Monty",
+    context: "This website",
     action:
-      "Shipped an ugly MVP in 2 weeks, then iterated 12 times based on real player feedback before App Store submission.",
+      "Built with a custom WebGL fluid simulation, then simplified to prioritize clarity over flash when it distracted from content.",
   },
   {
     id: "2",
-    context: "ImageR architecture",
+    context: "Project architecture",
     action:
-      "Chose on-device ML over cloud APIs—slower to build, but users keep their photos private and it works offline.",
+      "Always start with the simplest thing that works, then add complexity only when real problems demand it.",
   },
 ];
 
