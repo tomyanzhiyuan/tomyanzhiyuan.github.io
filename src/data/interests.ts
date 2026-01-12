@@ -10,13 +10,13 @@ export const interests: Interest[] = [
   {
     id: "skiing",
     title: "Skiing",
-    description: "Chasing fresh powder in the Northeast. Bristol Mountain regular.",
+    description: "Chasing fresh powder in NA, Asia, and Europe. Favorite: Val Thorens.",
     emoji: "⛷️",
   },
   {
     id: "photography",
     title: "Photography",
-    description: "Street and portrait work. Fujifilm shooter.",
+    description: "Street and portrait work. Sony shooter.",
     emoji: "📷",
   },
   {
@@ -28,7 +28,7 @@ export const interests: Interest[] = [
   {
     id: "cooking",
     title: "Cooking",
-    description: "Experimenting with recipes. Always perfecting my dumplings.",
+    description: "Everyday must: Breakfast Omelette ",
     emoji: "🍳",
   },
 ];
