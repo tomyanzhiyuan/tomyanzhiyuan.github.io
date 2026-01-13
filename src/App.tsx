@@ -11,6 +11,9 @@ import { proofTiles } from "./data/proof";
 import { interests } from "./data/interests";
 import { principles, examples } from "./data/workStyle";
 
+// Assets
+import headshot from "./assets/headshot.jpg";
+
 // Animation variants
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -81,6 +84,15 @@ export default function App() {
           variants={staggerContainer}
           className="max-w-3xl mx-auto text-center"
         >
+          {/* Headshot */}
+          <motion.div variants={fadeInUp} className="mb-8">
+            <img
+              src={headshot}
+              alt="Tom Yan"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto object-cover border-2 border-white/10 shadow-xl"
+            />
+          </motion.div>
+
           {/* Headline */}
           <motion.h1
             variants={fadeInUp}
