@@ -13,6 +13,7 @@ import { principles, examples } from "./data/workStyle";
 
 // Assets
 import headshot from "./assets/headshot.jpg";
+import resume from "./assets/resume.pdf";
 
 // Animation variants
 const fadeInUp = {
@@ -154,7 +155,9 @@ export default function App() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="/resume.pdf"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-2 text-gray-500 hover:text-white transition-colors"
               aria-label="Resume"
             >
