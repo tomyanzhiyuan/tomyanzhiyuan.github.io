@@ -13,7 +13,7 @@ export const proofTiles: ProofTile[] = [
     id: "projects",
     icon: Smartphone,
     label: "Projects Shipped",
-    metric: "5+",
+    metric: "2+",
   },
   {
     id: "research",

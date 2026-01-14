@@ -294,20 +294,20 @@ export default function App() {
             {publishedEssays.map((essay) => (
               <Link key={essay.id} to={`/writing/${essay.slug}`}>
                 <motion.div
-                  variants={fadeInUp}
-                  whileHover={{ x: 4 }}
-                  className="group flex items-start justify-between py-4 border-b border-white/5 hover:bg-white/[0.02] -mx-4 px-4 rounded-lg transition-colors"
-                >
-                  <div className="flex-1">
-                    <h3 className="font-medium group-hover:text-white transition-colors">
-                      {essay.title}
-                    </h3>
-                    <p className="text-sm text-gray-500 mt-1">{essay.hook}</p>
-                  </div>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span>{essay.readTime}</span>
-                    <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
+                variants={fadeInUp}
+                whileHover={{ x: 4 }}
+                className="group flex items-start justify-between py-4 border-b border-white/5 hover:bg-white/[0.02] -mx-4 px-4 rounded-lg transition-colors"
+              >
+                <div className="flex-1">
+                  <h3 className="font-medium group-hover:text-white transition-colors">
+                    {essay.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 mt-1">{essay.hook}</p>
+                </div>
+                <div className="flex items-center gap-4 text-sm text-gray-600">
+                  <span>{essay.readTime}</span>
+                  <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
                 </motion.div>
               </Link>
             ))}
