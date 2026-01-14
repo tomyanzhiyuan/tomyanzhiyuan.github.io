@@ -147,6 +147,7 @@ export default function EssayPage() {
         <nav className="mx-auto max-w-3xl px-6 py-4 flex items-center justify-between">
           <Link
             to="/"
+            state={{ scrollTo: "writing" }}
             className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
           >
             <ArrowLeft className="h-4 w-4" />
@@ -185,6 +186,7 @@ export default function EssayPage() {
         <div className="mt-16 pt-8 border-t border-white/10">
           <Link
             to="/"
+            state={{ scrollTo: "writing" }}
             className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
           >
             <ArrowLeft className="h-4 w-4" />

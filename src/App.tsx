@@ -1,5 +1,5 @@
-import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Github, Linkedin, FileText, Mail, ExternalLink, ArrowRight } from "lucide-react";
 import { Button } from "./components/ui/button";
@@ -36,10 +36,24 @@ const staggerContainer = {
 export default function App() {
   const projectsRef = useRef<HTMLElement>(null);
   const writingRef = useRef<HTMLElement>(null);
+  const location = useLocation();
 
   const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
+
+  // Handle scroll to section when navigating back from essay page
+  useEffect(() => {
+    const state = location.state as { scrollTo?: string } | null;
+    if (state?.scrollTo === "writing" && writingRef.current) {
+      // Small delay to ensure the page has rendered
+      setTimeout(() => {
+        writingRef.current?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+      // Clear the state to prevent scrolling on subsequent renders
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
 
   const featuredProjects = getFeaturedProjects();
   const publishedEssays = getPublishedEssays();
