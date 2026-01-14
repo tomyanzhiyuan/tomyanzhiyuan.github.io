@@ -46,10 +46,8 @@ export default function App() {
   useEffect(() => {
     const state = location.state as { scrollTo?: string } | null;
     if (state?.scrollTo === "writing" && writingRef.current) {
-      // Small delay to ensure the page has rendered
-      setTimeout(() => {
-        writingRef.current?.scrollIntoView({ behavior: "smooth" });
-      }, 100);
+      // Instant scroll - no animation
+      writingRef.current.scrollIntoView({ behavior: "instant" });
       // Clear the state to prevent scrolling on subsequent renders
       window.history.replaceState({}, document.title);
     }
