@@ -1,0 +1,36 @@
+# Designing for Clarity
+
+The single question I ask before adding any feature.
+
+---
+
+Every feature request sounds reasonable in isolation. Users ask for it. The team can build it. It would be "nice to have."
+
+But features compound. Each one adds cognitive load, maintenance burden, and potential failure modes. The question isn't "can we build this?" It's: **"Does this make the core experience clearer or more confusing?"**
+
+## The clarity test
+
+Before adding anything, I ask: "If a new user sees this, will they understand the product better or worse?"
+
+Most features fail this test. They add options. They create edge cases. They solve problems for 5% of users while confusing the other 95%.
+
+## Subtraction is underrated
+
+The best product decisions I've made weren't additions—they were removals. Killing a feature that "some users liked" to make the core experience obvious. Saying no to requests that would have diluted focus.
+
+Clarity requires the courage to leave things out.
+
+## Examples from my work
+
+- Removed three navigation tabs to keep focus on the primary action
+- Killed a "power user" settings panel that confused everyone else
+- Chose a single, opinionated default over a configuration wizard
+
+Each time, it felt risky. Each time, it was the right call.
+
+---
+
+Features are easy to add and hard to remove. Start with the minimum that achieves clarity. Add only when absolutely necessary.
+
+The goal isn't a complete product. It's a clear one.
+

@@ -1,0 +1,28 @@
+# Why I Build in Public
+
+Shipping ugly work early taught me more than any course.
+
+---
+
+The first version of anything I build is almost always embarrassing. But I've learned that embarrassment is the price of learning fast.
+
+Here's what building in public has taught me:
+
+## 1. Feedback beats perfection
+
+When you ship early, you get real feedback from real people. Not imaginary objections in your head. The gap between "what I thought users wanted" and "what users actually need" is always humbling.
+
+## 2. Momentum compounds
+
+Each shipped thing, no matter how small, creates momentum for the next. A week of planning feels productive but produces nothing. A week of shipping—even small, ugly things—builds a portfolio of proof.
+
+## 3. You learn what matters
+
+When you build in private, you optimize for the wrong things: clever code architecture, perfect naming conventions, edge cases that never happen. When you build in public, you optimize for what actually moves the needle.
+
+---
+
+I still cringe at early versions of my projects. But that cringe is evidence of growth. The alternative—never shipping—teaches you nothing.
+
+Build ugly. Ship early. Learn fast.
+

@@ -1,0 +1,30 @@
+# From Reconnaissance to Code
+
+What military training taught me about debugging complex systems.
+
+---
+
+Before I wrote my first line of production code, I spent time in military reconnaissance. The skills feel unrelated, but they share a core discipline: systematic observation under uncertainty.
+
+## Pattern recognition under pressure
+
+In recon, you learn to spot anomalies—a broken branch, an unusual shadow, movement that doesn't fit the environment. Debugging is the same. You scan logs, network traces, and stack traces looking for the thing that doesn't belong.
+
+The instinct is the same: something is off. Find it.
+
+## Working backwards from effects
+
+When something goes wrong in the field, you don't always know the cause. You see the result—a system failure, a mission delay—and work backwards. What changed? What was the last known good state? What assumptions might be wrong?
+
+This is exactly how I debug production issues. Start with symptoms. Trace back to root cause. Don't assume—verify.
+
+## Patience and thoroughness
+
+Rushing reconnaissance gets people hurt. Rushing debugging ships broken code. Both require the discipline to be thorough even when pressure mounts.
+
+---
+
+The transition from military to tech felt like a career change. But the mental models transfer: observe carefully, think systematically, verify before acting.
+
+The domain is different. The discipline is the same.
+
