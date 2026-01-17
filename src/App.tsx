@@ -411,7 +411,7 @@ export default function App() {
           </motion.p>
           <motion.div variants={fadeInUp}>
             <a
-              href="mailto:zhiyuanyan@rochester.edu"
+              href="mailto:tom@tomyanz.com"
               className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition-colors"
             >
               <Mail className="h-4 w-4" />
