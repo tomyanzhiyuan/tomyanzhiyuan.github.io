@@ -39,6 +39,7 @@ export const projects: Project[] = [
     role: "Curator & Developer",
     timeframe: "2024",
     stack: ["Python", "EPUB"],
+    githubUrl: "https://github.com/tomyanzhiyuan/pgessaysepub",
     demoUrl: "https://tomyanz.com/pgessaysepub",
     featured: true,
   },
