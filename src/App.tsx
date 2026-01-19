@@ -415,7 +415,7 @@ export default function App() {
               className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition-colors"
             >
               <Mail className="h-4 w-4" />
-              zhiyuanyan@rochester.edu
+              tom@tomyanz.com
             </a>
           </motion.div>
 
